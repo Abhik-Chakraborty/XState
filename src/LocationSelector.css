@@ -1,0 +1,16 @@
+.location-selector {
+  text-align: center;
+  padding: 20px;
+}
+
+.location-selector select {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.final-selection {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
