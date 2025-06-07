@@ -43,7 +43,7 @@ const LocationSelector = () => {
         .catch(err => console.error('Error fetching cities:', err));
       setSelectedCity('');
     }
-  }, [selectedState]);
+  }, [selectedCountry, selectedState]);
 
   const handleCitySelect = (city) => {
     setSelectedCity(city);
